@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #ebe7e0;
+  color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Oswald", serif;
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+/* Style the header */
+.header {
+  background-color: #001f36;
+  padding: 20px;
+  color: #ffffff;
+  text-align: left;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #1c5560;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #ebcc6e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ebcc6e;
+  color: #1c5560;
+}
+
+body {
+  margin: 0;
+  background-color: #ebe7e0;
+  color: #000000;
+  text-align: justify;
+}
